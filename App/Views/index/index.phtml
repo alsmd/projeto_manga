@@ -1,0 +1,10 @@
+<h1>index</h1>
+<hr>
+<?php 
+    foreach($this->view->dados as $dado){
+        echo 'ID - '.$dado['id'] . "<br>";
+        echo 'Produto - '.$dado['descricao'] . "<br>";
+        echo 'Preco - '.$dado['preco'] . "<br>";
+        echo"<hr>";
+    }
+?>

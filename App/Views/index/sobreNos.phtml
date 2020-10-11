@@ -1,0 +1,12 @@
+
+    <br><br>
+<h1>Sobre nos</h1>
+<hr>
+<?php 
+foreach($this->view->dados as $dado){
+    ?>
+    <h1><?= $dado['titulo'];?></h1>
+    <p><?= $dado['descricao'];?></p>
+    <br><br>
+    <hr>
+<?php }?>
